@@ -1,8 +1,11 @@
-title: Just the Docs Template
-description: A starter template for a Jeykll site using the Just the Docs theme!
+title: httpout
+description: httpout allows you to execute your Python script from a web URL, the print() output goes to your browser.
 theme: just-the-docs
 
-url: https://just-the-docs.github.io
+url: https://httpout.github.io
 
 aux_links:
-  Template Repository: https://github.com/just-the-docs/just-the-docs-template
+  Template Repository: https://github.com/httpout/httpout.github.io
+
+# Color scheme supports "light" (default) and "dark"
+color_scheme: dark
