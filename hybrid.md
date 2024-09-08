@@ -51,7 +51,9 @@ async def main():
 
 
 run(main())
+print('OK')
 # finish (worker thread), main() will still run (on the main thread)
+# should print the 'OK' first
 ```
 
 You can immediately leave the worker thread while it is running `main()`.
