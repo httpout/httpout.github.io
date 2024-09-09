@@ -56,7 +56,7 @@ print('OK')
 # should print the 'OK' first
 ```
 
-You can immediately leave the worker thread while it is running `main()`.
+With `run()` you can immediately leave the worker thread while it is running `main()`.
 
 This essentially switches the style from threaded to asynchronous to handle long-lived connections -
 which should explain why the hybrid async-sync in httpout is so powerful in this case.
