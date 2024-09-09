@@ -9,6 +9,16 @@ Let's explore how a typical synchronous framework handles requests.
 When a request arrives, the web server (WSGI server) assigns it to a worker, usually **a thread** or a process,
 which handles the request from **start** to **finish**.
 
+```python
+# a typical synchronous framework routing
+@app.route('/hello')
+def hello():
+    # start
+
+    return 'Hello, World!'
+    # finish
+```
+
 This works fine for short requests, where processing times are in milliseconds,
 and many requests can be handled with relatively few threads.
 
@@ -21,7 +31,7 @@ the 6th request must wait until a thread is free.
 This problem can be replicated on httpout with `wait` because httpout is also threaded by nature.
 
 ```python
-# hello.py
+# hello.py (httpout's file-based routing)
 # start
 import asyncio
 
@@ -39,7 +49,7 @@ wait(main())
 But not if you use `run` instead of `wait`:
 
 ```python
-# hello.py
+# hello.py (httpout's file-based routing)
 # start
 import asyncio
 
