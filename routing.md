@@ -15,7 +15,7 @@ def hello():
     return 'Hello, World!'
 ```
 
-You simply create a file and the file name will be used in routing.
+You simply create a `.py` file and the file name (including extension) will be used in routing.
 ```python
 # hello.py
 
