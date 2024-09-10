@@ -4,7 +4,7 @@ nav_order: 5
 title: File-based routing
 ---
 
-Rather than mapping URLs to functions like a typical synchronous framework routing,
+Rather than mapping URLs to functions like a typical framework routing,
 httpout uses file-based routing.
 This concept is familiar to those of you who have used PHP or [CGI scripts](https://en.wikipedia.org/wiki/Common_Gateway_Interface).
 
