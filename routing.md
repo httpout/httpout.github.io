@@ -51,4 +51,4 @@ A 101 question, how is routing handled in the following case?
 httpout will still assume `/posts.py` is the destination file (whether it exists or not),
 and `hello.py` will be part of `PATH_INFO`.
 
-There will be no smart fallback.
+There will be no smart fallback. You can still alter the routing behavior in the middleware.
