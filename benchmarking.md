@@ -13,7 +13,7 @@ print('Hello, World!')
 
 It may still be able to beat the average framework, but that's not where httpout's strengths lie!
 
-Please note, httpout loads the `.py` file every request (although at least 50% of requests will be cached), this will degrade performance to some degree.
+As you know, httpout loads the `.py` file every request (although at least 50% of requests will be cached), this will degrade performance to some degree.
 
 But it's a small price to pay to be able to **run blocking and non-blocking code in one place**, with no difficult syntaxes:
 ```python
