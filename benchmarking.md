@@ -37,4 +37,4 @@ async def main():
 run(main())
 ```
 
-And that's where the httpout's muscles come in handy.
+And that's where the httpout's muscles come in handy. It easily lifts blocking io code, when async-only frameworks have trouble doing so.
