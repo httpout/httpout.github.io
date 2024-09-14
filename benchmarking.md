@@ -4,6 +4,7 @@ nav_order: 10
 title: Benchmarking
 ---
 
+{: .note }
 I assume you already know that you should use `--log-level ERROR` to ensure there is no IO activity on your terminal during the benchmark.
 
 You will probably find that the performance of the following plain text is not that surprising:
