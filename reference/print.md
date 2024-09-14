@@ -1,9 +1,10 @@
 ---
+layout: page
 title: print()
 parent: Reference
 ---
 
-`print()` behaves like a regular [print()](https://docs.python.org/3/library/functions.html#print). it will add `'\n'` to the end.
+`print()` behaves like a regular [print()](https://docs.python.org/3/library/functions.html#print). It will add `'\n'` to the end.
 
 If you prefer bytes-oriented and want to be more efficient, you can use `response.write()`. This method is async therefore it should be *awaited*.
 ```python
