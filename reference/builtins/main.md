@@ -18,7 +18,7 @@ foo.main()
 
 ```python
 # foo.py
-# /: __main__ should point to index.py
+# /: __main__ should point to index.py, as foo.py is a submodule to index.py
 # /foo.py: __main__ should point to foo.py (itself)
 import __main__
 
