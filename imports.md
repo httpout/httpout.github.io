@@ -12,7 +12,7 @@ from httpout import request
 As its name implies, it doesn't actually import from a file,
 it just magically retrieves the current `request` object.
 
-Since httpout uses [file-based routing](routing.html), this is the only viable way I can think of
+Since httpout uses [file-based routing](/routing.html), this is the only viable way I can think of
 to interact with objects like `request`, `response`, etc., by leveraging the import syntax.
 
 I am not aware if there are other tools/frameworks that do something like this, so I just call it *virtual import*.
