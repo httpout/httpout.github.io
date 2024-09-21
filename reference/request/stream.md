@@ -7,6 +7,7 @@ grand_parent: Reference
 
 An *async generator*, to stream the request body.
 
+Example:
 ```python
 from httpout import run, request
 

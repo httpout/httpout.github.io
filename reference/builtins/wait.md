@@ -6,6 +6,8 @@ grand_parent: Reference
 ---
 
 Just like [run()](/reference/builtins/run.html), this function is used to run a coroutine, but **waits** for the result.
+
+Example:
 ```python
 import asyncio
 

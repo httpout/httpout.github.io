@@ -7,6 +7,7 @@ grand_parent: Reference
 
 An *async generator*, to stream the request body with `multipart/form-data` type.
 
+Example:
 ```python
 from httpout import run, request
 

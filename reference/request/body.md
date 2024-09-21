@@ -8,8 +8,9 @@ grand_parent: Reference
 An awaitable object, to get the request body at once.
 
 {: .warning }
-This will load the entire body into memory. Use [request.stream()](/reference/request/stream.md) whenever possible.
+This will load the entire body into memory. Use [request.stream()](/reference/request/stream.html) whenever possible.
 
+Example:
 ```python
 from httpout import run, request
 

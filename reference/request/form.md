@@ -7,6 +7,7 @@ grand_parent: Reference
 
 An awaitable object, to get the request body with `application/x-www-form-urlencoded` type.
 
+Example:
 ```python
 from httpout import run, request
 

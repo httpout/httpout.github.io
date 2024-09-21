@@ -7,6 +7,7 @@ grand_parent: Reference
 
 A reference to your main route. It is available across your submodule imports.
 
+Example:
 ```python
 # index.py
 import foo

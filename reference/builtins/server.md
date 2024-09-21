@@ -6,6 +6,8 @@ grand_parent: Reference
 ---
 
 A tribute to PHP's [$_SERVER](https://www.php.net/manual/en/reserved.variables.server.php). If you're a pythonista, you should probably use `request.environ` instead.
+
+Example:
 ```python
 from httpout import __server__, request
 
