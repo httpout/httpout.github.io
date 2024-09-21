@@ -28,7 +28,7 @@ as each thread remains occupied for the duration of the connection.
 For example, if you have 5 worker threads and all are tied up with long-lived connections,
 the 6th request must wait until a thread is free.
 
-This problem can be replicated on httpout with `wait` because httpout is also threaded by nature.
+This problem can be replicated on httpout with [wait](/reference/builtins/wait.html) because httpout is also threaded by nature.
 
 ```python
 # hello.py (httpout's file-based routing)
@@ -46,7 +46,7 @@ wait(main())
 # finish
 ```
 
-But not if you use `run` instead of `wait`:
+But not if you use [run](/reference/builtins/run.html) instead of `wait`:
 
 ```python
 # hello.py (httpout's file-based routing)
