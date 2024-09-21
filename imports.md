@@ -22,6 +22,7 @@ The objects that can be imported are mostly from the built-in:
 from httpout import (
     request,
     response,
+    websocket,
     print,
     run,
     wait,
@@ -41,4 +42,11 @@ It is useful to avoid linter errors:
 ```
 F821 undefined name 'run'
 F821 undefined name '__globals__'
+```
+
+Last but not least, importing `httpout` means importing the current module.
+```python
+import httpout
+
+assert httpout is __server__.modules[__name__]
 ```
