@@ -10,7 +10,7 @@ from httpout import request
 ```
 
 As its name implies, it doesn't actually import from a file,
-it just magically retrieves the current `request` object.
+it just magically retrieves the current [request object](/reference/request/).
 
 Since httpout uses [file-based routing](/routing.html), this is the only viable way I can think of
 to interact with objects like `request`, `response`, etc., by leveraging the import syntax.
@@ -36,7 +36,8 @@ While `__main__` can be imported in this way:
 import __main__
 ```
 
-Well, to use [print](/reference/builtins/print.html), there is no need to do so, unless on other built-ins like [run](/reference/builtins/run.html) or [wait](/reference/builtins/wait.html).
+Well, to use [print](/reference/builtins/print.html), there is no need to do so,
+unless on other built-ins like [run](/reference/builtins/run.html) or [wait](/reference/builtins/wait.html).
 
 It is useful to avoid linter errors:
 ```

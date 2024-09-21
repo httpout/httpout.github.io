@@ -1,5 +1,5 @@
 ---
-title: About
+title: Introduction
 nav_order: 1
 layout: home
 ---
