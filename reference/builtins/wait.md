@@ -5,7 +5,7 @@ parent: Built-ins
 grand_parent: Reference
 ---
 
-Just like `run()`, this function is used to run a coroutine, but **waits** for the result.
+Just like [run()](/reference/builtins/run.html), this function is used to run a coroutine, but **waits** for the result.
 ```python
 import asyncio
 
