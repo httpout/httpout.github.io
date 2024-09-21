@@ -2,6 +2,7 @@
 layout: page
 title: print()
 parent: Built-ins
+grand_parent: Reference
 ---
 
 `print()` behaves like a regular [print()](https://docs.python.org/3/library/functions.html#print). It will add `'\n'` to the end.
