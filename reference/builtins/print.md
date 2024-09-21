@@ -22,7 +22,7 @@ async def main():
 run(main())
 ```
 
-Or wrapped with `run()` or `wait()` if you want to use it outside the async context:
+Or wrapped with [run()](/reference/builtins/run.html) or [wait()](/reference/builtins/wait.html) if you want to use it outside the async context:
 ```python
 # hello.py
 from httpout import response
