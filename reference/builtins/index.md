@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Built-ins
+parent: Reference
 has_children: true
 has_toc: true
 ---
