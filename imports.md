@@ -17,7 +17,7 @@ to interact with objects like `request`, `response`, etc., by leveraging the imp
 
 I am not aware if there are other tools/frameworks that do something like this, so I just call it *virtual import*.
 
-The objects that can be imported are mostly from the built-in:
+The objects that can be imported are mostly from the [built-in](/reference/builtins/):
 ```python
 from httpout import (
     request,
@@ -36,7 +36,7 @@ While `__main__` can be imported in this way:
 import __main__
 ```
 
-Well, to use [print](/reference/print.html), there is no need to do so, unless on other built-ins like `run` or `wait`.
+Well, to use [print](/reference/builtins/print.html), there is no need to do so, unless on other built-ins like [run](/reference/builtins/run.html) or [wait](/reference/builtins/wait.html).
 
 It is useful to avoid linter errors:
 ```
