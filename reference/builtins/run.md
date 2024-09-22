@@ -3,6 +3,7 @@ layout: page
 title: run()
 parent: Built-ins
 grand_parent: Reference
+nav_order: 2
 ---
 
 `run()` is the key part that makes the [hybrid async-sync](/hybrid.html) possible in httpout.

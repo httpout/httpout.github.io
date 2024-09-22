@@ -3,6 +3,7 @@ layout: page
 title: response.set_cookie()
 parent: Response object
 grand_parent: Reference
+nav_order: 5
 ---
 
 To set a `Set-Cookie` header to the [response.headers](/reference/response/headers.html).

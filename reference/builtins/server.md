@@ -3,6 +3,7 @@ layout: page
 title: __server__
 parent: Built-ins
 grand_parent: Reference
+nav_order: 5
 ---
 
 A tribute to PHP's [$_SERVER](https://www.php.net/manual/en/reserved.variables.server.php). If you're a pythonista, you should probably use [request.environ](/reference/request/environ.html) instead.

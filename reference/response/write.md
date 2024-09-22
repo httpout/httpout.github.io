@@ -3,6 +3,7 @@ layout: page
 title: response.write()
 parent: Response object
 grand_parent: Reference
+nav_order: 8
 ---
 
 An alternative to [print()](/reference/builtins/print.html) for writing the response body. It only accepts a *bytes-like* object.

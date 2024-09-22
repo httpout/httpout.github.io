@@ -3,6 +3,7 @@ layout: page
 title: response.set_header()
 parent: Response object
 grand_parent: Reference
+nav_order: 4
 ---
 
 To set a custom header to the [response.headers](/reference/response/headers.html).

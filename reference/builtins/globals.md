@@ -3,6 +3,7 @@ layout: page
 title: __globals__
 parent: Built-ins
 grand_parent: Reference
+nav_order: 6
 ---
 
 A worker-level context. It points to the `__globals__.py` module in document root (if it exists).

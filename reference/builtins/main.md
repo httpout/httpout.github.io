@@ -3,6 +3,7 @@ layout: page
 title: __main__
 parent: Built-ins
 grand_parent: Reference
+nav_order: 4
 ---
 
 A reference to your main route. It is available across your submodule imports.
