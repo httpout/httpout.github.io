@@ -6,7 +6,7 @@ has_children: true
 has_toc: true
 ---
 
-To work with a websocket connection. the `websocket` object will be `None` on requests that are not considered a websocket type.
+To work with a websocket connection. The `websocket` object will be `None` on requests that are not considered a websocket type.
 
 Example:
 ```python
