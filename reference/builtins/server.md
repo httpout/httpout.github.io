@@ -5,7 +5,7 @@ parent: Built-ins
 grand_parent: Reference
 ---
 
-A tribute to PHP's [$_SERVER](https://www.php.net/manual/en/reserved.variables.server.php). If you're a pythonista, you should probably use `request.environ` instead.
+A tribute to PHP's [$_SERVER](https://www.php.net/manual/en/reserved.variables.server.php). If you're a pythonista, you should probably use [request.environ](/reference/request/environ.html) instead.
 
 Example:
 ```python
