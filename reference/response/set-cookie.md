@@ -5,7 +5,7 @@ parent: Response object
 grand_parent: Reference
 ---
 
-To set a `Cookie` header to the [response.headers](/reference/response/headers.html).
+To set a `Set-Cookie` header to the [response.headers](/reference/response/headers.html).
 
 Signature:
 ```python
