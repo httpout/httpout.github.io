@@ -5,4 +5,4 @@ parent: Response object
 grand_parent: Reference
 ---
 
-To check whether the [headers](/reference/response/headers.html) has already been sent. returns a `bool`.
+To check whether the [headers](/reference/response/headers.html) has already been sent. It returns a `bool`.
