@@ -6,7 +6,10 @@ has_children: true
 has_toc: true
 ---
 
-To work with a [WebSocket](https://en.wikipedia.org/wiki/WebSocket) connection. The `websocket` object will be `None` on requests that are not considered a WebSocket type, or the WebSocket support is disabled with `--no-ws`.
+To work with a [WebSocket](https://en.wikipedia.org/wiki/WebSocket) connection.
+
+{: .note }
+The `websocket` object will be `None` on requests that are not considered a WebSocket type, or the WebSocket support is disabled with `--no-ws`.
 
 Example:
 ```python
