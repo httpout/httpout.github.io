@@ -31,7 +31,7 @@ from httpout import (
 )
 ```
 
-While `__main__` can be imported in this way:
+While [\_\_main\_\_](/reference/builtins/main.html) can be imported in this way:
 ```python
 import __main__
 ```
