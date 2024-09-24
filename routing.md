@@ -54,7 +54,7 @@ and `hello.py` will be part of `PATH_INFO`.
 There will be no smart fallback. You can still alter the routing behavior in the middleware, though.
 
 ## Security
-File-based routing is not inherently insecure. It just has a security caveat, which is that **if you allow users to upload files**.
+File-based routing is generally secure, but issues can arise **if users are allowed to upload files**.
 
 Without proper file name sanitization, an attacker can upload `malicious.py` and be able to run it through the URL.
 To prevent this there are a few tricks to consider.
