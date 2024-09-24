@@ -52,3 +52,26 @@ httpout will still assume `/posts.py` is the destination file (whether it exists
 and `hello.py` will be part of `PATH_INFO`.
 
 There will be no smart fallback. You can still alter the routing behavior in the middleware, though.
+
+## Security
+File-based routing is not necessarily vulnerable by design. It just has a security caveat, which is that **if you allow users to upload files**.
+
+Without proper file name sanitization, an attacker can upload `malicious.py` and be able to run it through the URL.
+To prevent this there are a few tricks to consider.
+### 1. Sanitize names
+Only allow `A-Z a-z 0-9 - _` in file names. You can allow `.` as well if you are validating the entire filename and extension. This will prevent many problematic characters such as [\\x00](https://en.wikipedia.org/wiki/Null-terminated_string) or `%`.
+
+Double encoding is a source of loopholes that can occur due to developer confusion around [percent-encoding](https://en.wikipedia.org/wiki/Percent-encoding).
+
+### 2. Append a hardcode extension, e.g. `.jpg`
+```python
+NAME = normalize_or_hash_it(USER_PROVIDED_NAME) + '.jpg'
+```
+This way the user does not have full control over the filename.
+
+### 3. Upload to a folder that starts with `.`, e.g. `project_dir/.uploads/`
+This is specific to httpout. Visitors will simply get a `403` if there are dotfiles in the URL.
+
+This method is used when you do not intend to expose the upload result directly to the URL.
+However, you should still be aware of the possibility of [path traversal](https://en.wikipedia.org/wiki/Directory_traversal_attack),
+especially **if you intend to read those files through your code**.
