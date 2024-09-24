@@ -67,7 +67,7 @@ Double encoding is a source of loopholes that can occur due to developer confusi
 ```python
 NAME = normalize_or_hash_it(USER_PROVIDED_NAME) + '.jpg'
 ```
-This way the user does not have full control over the filename.
+This way the user does not have full control over the file name.
 
 ### 3. Upload to a folder that starts with `.`, e.g. `project_dir/.uploads/`
 This is specific to httpout. Visitors will simply get a `403` if there are dotfiles in the URL.
