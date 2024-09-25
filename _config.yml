@@ -5,7 +5,8 @@ theme: just-the-docs
 url: https://httpout.github.io
 
 aux_links:
-  Template Repository: https://github.com/httpout/httpout.github.io
+  Project Repository: https://github.com/nggit/httpout
+  Docs Repository: https://github.com/httpout/httpout.github.io
 
 # Color scheme supports "light" (default) and "dark"
 color_scheme: dark
