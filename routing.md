@@ -63,7 +63,7 @@ Only allow `A-Z a-z 0-9 - _` in file names. You can allow `.` as well if you are
 
 Double encoding is a source of loopholes that can occur due to developer confusion around [percent-encoding](https://en.wikipedia.org/wiki/Percent-encoding).
 
-### 2. Append a hardcode extension, e.g. `.jpg`
+### 2. Append a hardcoded extension, e.g. `.jpg`
 ```python
 NAME = normalize_or_hash_it(USER_PROVIDED_NAME) + '.jpg'
 ```
