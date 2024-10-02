@@ -22,6 +22,9 @@ You simply create a `.py` file and the file name (including extension) will be u
 print('Hello, World!')
 ```
 
+{: .note }
+Routing or importing modules in the document root is expected to be stateless. It will not generate a [\_\_pycache\_\_](https://docs.python.org/3/tutorial/modules.html#compiled-python-files) folder and `.pyc` files.
+
 Such routing may not be the fastest, as it involves querying the file system (IO).
 But it is less CPU-intensive than regex-based routing.
 
