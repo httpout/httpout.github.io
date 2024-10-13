@@ -14,8 +14,9 @@ from httpout import run, request
 
 
 async def main():
-    async for info, data in request.files():
-        print(info, data[:15])
+    async for part in request.files():
+        part['data'] = part['data'][:15]  # just to avoid printing a large file
+        print(part)
 
 
 run(main())
