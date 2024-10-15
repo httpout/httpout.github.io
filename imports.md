@@ -15,7 +15,7 @@ it just magically retrieves the current [request object](/reference/request/).
 Since httpout uses [file-based routing](/routing.html), this is the only viable way I can think of
 to interact with objects like `request`, `response`, etc., by leveraging the import syntax.
 
-I am not aware if there are other tools/frameworks that do something like this, so I just call it *virtual import*. No, this **does not** use [threading.local](https://docs.python.org/3/library/threading.html#threading.local) at all!
+I am not aware if there are other tools/frameworks that do something like this, so I just call it *virtual import*. No, it **does not** use [threading.local](https://docs.python.org/3/library/threading.html#threading.local) at all!
 
 The objects that can be imported are mostly from the [built-in](/reference/builtins/):
 ```python
