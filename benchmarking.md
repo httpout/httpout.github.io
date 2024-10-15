@@ -5,7 +5,7 @@ title: Benchmarking
 ---
 
 {: .note }
-I assume you already know that you should use `--log-level ERROR` to ensure there is no IO activity on your terminal during the benchmark. You can try to scale up with e.g. `--worker-num 4` and also try `--loop uvloop` for a slight performance boost.
+I assume you already know that you should use `--log-level ERROR` to ensure there is no IO activity on your terminal during the benchmark. FYI, it's possible to scale up with e.g. `--worker-num 4`. Please also try `--loop uvloop` for a slight performance boost :)
 
 You will probably find that the performance of the following plain text is not that surprising:
 ```python
