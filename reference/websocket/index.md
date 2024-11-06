@@ -6,7 +6,7 @@ has_children: true
 has_toc: true
 ---
 
-To work with a [WebSocket](https://en.wikipedia.org/wiki/WebSocket) connection.
+httpout supports [WebSocket](https://en.wikipedia.org/wiki/WebSocket) with no complexity for you to use.
 
 {: .note }
 The `websocket` object will be `None` on requests that are not considered a WebSocket type, or the WebSocket support is disabled with `--no-ws`.
