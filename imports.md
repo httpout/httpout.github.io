@@ -26,8 +26,9 @@ from httpout import (
     print,
     run,
     wait,
+    context,     # request-level context
     __server__,
-    __globals__
+    __globals__  # worker-level context
 )
 ```
 
@@ -49,5 +50,5 @@ Last but not least, importing `httpout` means importing the current module.
 ```python
 import httpout
 
-assert httpout is __server__.modules[__name__]
+assert httpout is __server__['modules'][__name__]
 ```
