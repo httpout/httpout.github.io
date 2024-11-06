@@ -42,8 +42,8 @@ And here's the snippet:
 ```python
 # posts.py
 
-print(__server__.SCRIPT_NAME)  # '/posts.py'
-print(__server__.PATH_INFO)    # '/title/hello-world'
+print(__server__['SCRIPT_NAME'])  # '/posts.py'
+print(__server__['PATH_INFO'])    # '/title/hello-world'
 ```
 
 A 101 question, how is routing handled in the following case?
