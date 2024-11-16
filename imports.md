@@ -26,7 +26,7 @@ from httpout import (
     print,
     run,
     wait,
-    context,     # request-level context
+    context,     # connection-level context
     __server__,
     __globals__  # worker-level context
 )
