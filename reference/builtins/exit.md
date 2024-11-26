@@ -1,5 +1,5 @@
 ---
-layout: exit
+layout: page
 title: exit()
 parent: Built-ins
 grand_parent: Reference
