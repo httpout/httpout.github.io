@@ -3,7 +3,7 @@ layout: page
 title: wait()
 parent: Built-ins
 grand_parent: Reference
-nav_order: 3
+nav_order: 4
 ---
 
 Just like [run()](/reference/builtins/run.html), this function is used to run a coroutine, but **waits** for the result.

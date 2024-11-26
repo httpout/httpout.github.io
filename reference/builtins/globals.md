@@ -3,7 +3,7 @@ layout: page
 title: __globals__
 parent: Built-ins
 grand_parent: Reference
-nav_order: 6
+nav_order: 7
 ---
 
 `__globals__` is a process-level context,
