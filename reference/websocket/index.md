@@ -14,14 +14,12 @@ The `websocket` object will be `None` on requests that are not considered a WebS
 Example:
 ```python
 # ws.py
-import sys
-
 from httpout import run, response, websocket
 
 if websocket is None:
     response.set_status(400, 'Bad Request')
     print('Not a websocket request')
-    sys.exit()
+    exit()
 
 
 async def main():
